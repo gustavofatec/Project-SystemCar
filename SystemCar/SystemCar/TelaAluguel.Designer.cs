@@ -84,7 +84,7 @@ namespace SystemCar {
             this.textBox2.Location = new System.Drawing.Point(304, 297);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(149, 22);
-            this.textBox2.TabIndex = 5;
+            this.textBox2.TabIndex = 2;
             // 
             // comboBox1
             // 
@@ -103,7 +103,7 @@ namespace SystemCar {
             this.comboBox1.Location = new System.Drawing.Point(304, 268);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(149, 23);
-            this.comboBox1.TabIndex = 6;
+            this.comboBox1.TabIndex = 1;
             // 
             // label4
             // 
@@ -120,7 +120,7 @@ namespace SystemCar {
             this.textBox1.Location = new System.Drawing.Point(304, 325);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(149, 22);
-            this.textBox1.TabIndex = 8;
+            this.textBox1.TabIndex = 3;
             // 
             // label5
             // 
@@ -137,7 +137,7 @@ namespace SystemCar {
             this.textBox3.Location = new System.Drawing.Point(304, 353);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(149, 22);
-            this.textBox3.TabIndex = 10;
+            this.textBox3.TabIndex = 4;
             // 
             // button1
             // 
@@ -146,7 +146,7 @@ namespace SystemCar {
             this.button1.Location = new System.Drawing.Point(216, 458);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(237, 85);
-            this.button1.TabIndex = 13;
+            this.button1.TabIndex = 5;
             this.button1.Text = "CALCULAR";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -169,8 +169,7 @@ namespace SystemCar {
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TelaAluguel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Aluguel";

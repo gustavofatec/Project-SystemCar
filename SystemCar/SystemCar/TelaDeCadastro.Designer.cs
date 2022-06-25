@@ -31,7 +31,6 @@ namespace SystemCar {
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -83,7 +82,7 @@ namespace SystemCar {
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(12, 429);
+            this.label3.Location = new System.Drawing.Point(12, 406);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(155, 18);
             this.label3.TabIndex = 3;
@@ -109,30 +108,21 @@ namespace SystemCar {
             this.label5.TabIndex = 5;
             this.label5.Text = "Estado";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(12, 398);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 18);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "CPF";
-            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(106, 284);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(290, 20);
             this.textBox1.TabIndex = 7;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(175, 426);
+            this.dateTimePicker1.Location = new System.Drawing.Point(175, 406);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(101, 20);
-            this.dateTimePicker1.TabIndex = 8;
+            this.dateTimePicker1.TabIndex = 10;
             // 
             // comboBox1
             // 
@@ -160,7 +150,7 @@ namespace SystemCar {
             this.comboBox1.Location = new System.Drawing.Point(105, 327);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(290, 21);
-            this.comboBox1.TabIndex = 9;
+            this.comboBox1.TabIndex = 8;
             // 
             // comboBox2
             // 
@@ -173,7 +163,7 @@ namespace SystemCar {
             this.comboBox2.Location = new System.Drawing.Point(104, 366);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(290, 21);
-            this.comboBox2.TabIndex = 10;
+            this.comboBox2.TabIndex = 9;
             // 
             // panel1
             // 
@@ -182,7 +172,7 @@ namespace SystemCar {
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Location = new System.Drawing.Point(104, 464);
+            this.panel1.Location = new System.Drawing.Point(104, 447);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(232, 91);
             this.panel1.TabIndex = 11;
@@ -193,7 +183,7 @@ namespace SystemCar {
             this.radioButton5.Location = new System.Drawing.Point(71, 60);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(116, 17);
-            this.radioButton5.TabIndex = 4;
+            this.radioButton5.TabIndex = 15;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Não quero declarar";
             this.radioButton5.UseVisualStyleBackColor = true;
@@ -204,7 +194,7 @@ namespace SystemCar {
             this.radioButton4.Location = new System.Drawing.Point(132, 37);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(93, 17);
-            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabIndex = 14;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Gênero neutro";
             this.radioButton4.UseVisualStyleBackColor = true;
@@ -215,7 +205,7 @@ namespace SystemCar {
             this.radioButton3.Location = new System.Drawing.Point(15, 37);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(85, 17);
-            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabIndex = 13;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Transgênero";
             this.radioButton3.UseVisualStyleBackColor = true;
@@ -227,7 +217,7 @@ namespace SystemCar {
             this.radioButton2.Location = new System.Drawing.Point(132, 12);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(76, 18);
-            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabIndex = 12;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Feminino";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -240,7 +230,7 @@ namespace SystemCar {
             this.radioButton1.Location = new System.Drawing.Point(15, 13);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(81, 18);
-            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabIndex = 11;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Masculino";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -249,7 +239,7 @@ namespace SystemCar {
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Black", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 500);
+            this.label7.Location = new System.Drawing.Point(12, 477);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 18);
             this.label7.TabIndex = 12;
@@ -259,10 +249,10 @@ namespace SystemCar {
             // 
             this.button1.BackColor = System.Drawing.Color.DarkGray;
             this.button1.Font = new System.Drawing.Font("Arial Black", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(175, 574);
+            this.button1.Location = new System.Drawing.Point(175, 562);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(221, 56);
-            this.button1.TabIndex = 13;
+            this.button1.TabIndex = 16;
             this.button1.Text = "CADASTRAR";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -280,7 +270,6 @@ namespace SystemCar {
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -306,7 +295,6 @@ namespace SystemCar {
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox1;

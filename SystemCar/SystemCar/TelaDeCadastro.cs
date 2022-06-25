@@ -16,6 +16,7 @@ namespace SystemCar {
         public TelaDeCadastro() {
             InitializeComponent();
         }
+        
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e) {
 
@@ -31,6 +32,10 @@ namespace SystemCar {
 
         private void FormAluguel() {
             Application.Run(new TelaAluguel());
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e) {
+            
         }
     }
 }

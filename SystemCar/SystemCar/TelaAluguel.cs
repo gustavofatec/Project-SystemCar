@@ -30,10 +30,12 @@ namespace SystemCar {
                 MessageBoxIcon.Question);
 
             if (resposta == DialogResult.Yes) {
-                MessageBox.Show("Carro Alugado com sucesso !!");
+                MessageBox.Show("Carro Alugado com sucesso !! \n Obrigado !!");
+                this.Close();
             }
             else {
                 MessageBox.Show("Obrigado !!");
+                this.Close();
             };
 
            
