@@ -1,0 +1,11 @@
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.exe.config
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.exe
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.pdb
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.AssemblyReference.cache
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.Form1.resources
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.Properties.Resources.resources
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.GenerateResource.cache
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.CoreCompileInputs.cache
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.exe
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.pdb
+C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.TelaDeCadastro.resources
