@@ -9,3 +9,15 @@ C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.Core
 C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.exe
 C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.pdb
 C:\WS-VisualStudio\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.TelaDeCadastro.resources
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.exe.config
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.exe
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\bin\Debug\SystemCar.pdb
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.AssemblyReference.cache
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.Form1.resources
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.Properties.Resources.resources
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.TelaDeCadastro.resources
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.GenerateResource.cache
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.csproj.CoreCompileInputs.cache
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.exe
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.pdb
+E:\Logica de Programação\SystemCar\SystemCar\SystemCar\obj\Debug\SystemCar.TelaAluguel.resources

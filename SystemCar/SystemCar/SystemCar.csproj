@@ -54,6 +54,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TelaAluguel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TelaAluguel.Designer.cs">
+      <DependentUpon>TelaAluguel.cs</DependentUpon>
+    </Compile>
     <Compile Include="TelaDeCadastro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TelaAluguel.resx">
+      <DependentUpon>TelaAluguel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TelaDeCadastro.resx">
       <DependentUpon>TelaDeCadastro.cs</DependentUpon>
     </EmbeddedResource>

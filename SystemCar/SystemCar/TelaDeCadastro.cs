@@ -7,11 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace SystemCar {
     public partial class TelaDeCadastro : Form {
-
-        char decisao;
+        Thread nt2;
+        
         public TelaDeCadastro() {
             InitializeComponent();
         }
@@ -21,7 +22,15 @@ namespace SystemCar {
         }
 
         private void button1_Click(object sender, EventArgs e) {
-            MessageBox.Show("Cliente cadastrado com sucesso !!");            
+            MessageBox.Show("Cliente cadastrado com sucesso !!","Cadastro");
+            this.Close();
+            nt2 = new Thread(FormAluguel);
+            nt2.SetApartmentState(ApartmentState.STA);
+            nt2.Start();
+        }
+
+        private void FormAluguel() {
+            Application.Run(new TelaAluguel());
         }
     }
 }
